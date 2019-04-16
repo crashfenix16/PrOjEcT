@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+}
+
+.section3 {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1180px;
+    padding: 85px 0;
+}
+
+.section3 .container {
+    width: 1180px;
+    margin: 0 30px;
+}
+
+.section3 h2 {
+    font-family: 'PT Sans', sans-serif;
+    color: #7691b9;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 2.4px;
+    line-height: 18px;
+    margin: 0;
+    margin-bottom: 26px;
+    text-transform: uppercase;
+}
+
+.section3 .main {
+    display: flex;
+}
+
+.section3 .main2 {
+    padding-left: 100px;
+}
+
+.section3 .shadow {
+    box-shadow: 6px 6px 7px rgba(0, 0, 0, 0.25);
+}
+
+.section3 p {
+    width: 570px;
+    height: 26px;
+    color: #282828;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 1.4px;
+    line-height: 21px;
+    margin: 0px;
+    margin-bottom: 23px;
+}
+
+.section3 .stymit {
+    width: 170px;
+    height: 34px;
+    border-radius: 15px;
+    border:none;
+    background-color: #feda03;
+    margin-top: 30px;
+}
+
+.section3 .header {
+    text-align: center;
+}
+
+.section3 p.stinput input {
+    width: 100%;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom: 1px solid #c4c4c4;
+    border-left: 1px solid #c4c4c4;
+    padding-top: 8px;
+    padding-left: 18px;
+    padding-bottom: 8px;
+    color: #c4c4c4;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 14px;
+}
+
+.section3 select {
+    width: 100%;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom: 1px solid #c4c4c4;
+    border-left: 1px solid #c4c4c4;
+    padding-top: 8px;
+    padding-left: 18px;
+    padding-bottom: 8px;
+    color: #c4c4c4;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 14px;
+}
+
+.section3 form input[type="text"]::-webkit-input-placeholder{
+    color: #c4c4c4;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 14px;
+}
+
+.section3 input.stymit{
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.section3 input.stymit:hover {
+    background-color: #853D51;
+    color: white;
+    box-shadow: 6px 6px 7px rgba(0, 0, 0, 0.25);
+}
+
+.section3 p.stinput input.calendar {
+    width: 364px;
+}
+.section3 .obb {
+    display: flex;
+}
+
+.section3 p.stinput.klas {
+    width: 364px;
+    display: flex;
+    align-items: center;
+}
+
+.section3 a {
+    cursor: pointer;
+}
+.section3 img.ui-datepicker-trigger {
+    width: 44px;
+    height: 44px;
+}
+
+
+.section3 .header2 {
+    text-align: center;
+}

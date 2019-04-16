@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style2.css">
+    <link rel="stylesheet" href="css/lightbox.min.css">
+    <link rel="stylesheet" href="css/style33.css">
+    <script type="text/javascript" src="js/lightbox-plus-jquery.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>trigger</title>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <script src="http://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="http://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script>
+        $( function() {
+            $( "#datepicker" ).datepicker({
+                showOn: "button",
+                buttonImage: "img/photo2.jpg",
+                buttonImageOnly: true,
+                buttonText: "Select date"
+            });
+        } );
+    </script>
+</head>
+<body>
+<section class="page1">
+    <div class="container">
+        <div class="header">
+            <h3>Мастерская</h3>
+            <h2>Наши мастера не только учат, но и создают!</h2>
+            <h4>Любые вашы идеи могут быть реализованы, не сомневайтесь!</h4>
+        </div>
+        <div class="gallery">
+            <div class="gallery-item">
+                <div class="gallery-img">
+                    <img src="img/1.jpg">
+                </div>
+                <div class="gallery-text">
+                    <p>Мечтаете об уникальном семейном сервизе?! Пожалуйста!</p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <div class="gallery-img">
+                    <img src="img/2.jpg">
+                </div>
+                <div class="gallery-text">
+                    <p>Хотите красивейшие подсвечники в гостинную?! Не проблема!</p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <div class="gallery-img">
+                    <img src="img/3.jpg">
+                </div>
+                <div class="gallery-text">
+                    <p>Задумались о статуе любимого дедушки в полный рост?! И это возможно!</p>
+                </div>
+            </div>
+        </div>
+        <div class="float">
+            <h4>Приходите! С нами можно реализовать любые, даже самые смелые мечты!</h4>
+        </div>
+        <div class="btn-area">
+            <a href="#">Перейти в Мастерскую</a>
+        </div>
+    </div>
+</section>
+<section class="section2">
+    <div class="header">
+        <h2>Работы наших студентов</h2>
+    </div>
+    <div class="main">
+        <div class="gallery">
+            <div><span><a href="img/pic2-small.png" data-lightbox="mygallery"><img src="img/pic1-small.png"></a></span></div>
+            <div><span><a href="img/pic2-small.png" data-lightbox="mygallery"><img src="img/pic2-small.png"></a></span></div>
+            <div><span><a href="img/pic3-small.png" data-lightbox="mygallery"><img src="img/pic3-small.png"></a></span></div>
+            <div><span><a href="img/pic4-small.png" data-lightbox="mygallery"><img src="img/pic4-small.png"></a></span></div>
+            <div><span><a href="img/pic5-small.png" data-lightbox="mygallery"><img src="img/pic5-small.png"></a></span></div>
+            <div><span><a href="img/pic6-small.png" data-lightbox="mygallery"><img src="img/pic6-small.png"></a></span></div>
+            <div><span><a href="img/pic7-small.png" data-lightbox="mygallery"><img src="img/pic7-small.png"></a></span></div>
+            <div><span><a href="img/pic8-small.png" data-lightbox="mygallery"><img src="img/pic8-small.png"></a></span></div>
+            <div><span><a href="img/pic9-small.png" data-lightbox="mygallery"><img src="img/pic9-small.png"></a></span></div>
+            <div><span><a href="img/pic10-small.png" data-lightbox="mygallery"><img src="img/pic10-small.png"></a></span></div>
+        </div>
+    </div>
+    <div class="float">
+        <p><input class="stymit" type="submit" value="Перейти в галерею"></p>
+    </div>
+</section>
+<section class="section3">
+    <div class="container">
+        <div class="header">
+            <h2>Запишитесь</h2>
+            <h2>и получайте удовольствие от занятий вместе с нами</h2>
+        </div>
+        <div class="main">
+            <div class="main1">
+                <img class="shadow" src="img/photo.jpg"/>
+            </div>
+            <div class="main2">
+                <form>
+                    <p>Как Вас зовут?</p>
+                    <p class="stinput"><input type="text" placeholder="Алиса"></p>
+                    <p>По какому номеру можно с Вами связаться</p>
+                    <p class="stinput"><input type="text" placeholder="+38 (000) 000 00 00"></p>
+                    <p>Что вас интересует?</p>
+                    <p class="stinput">
+                        <select>
+                            <option value="Курс групповых зянятй" selected>Курс групповых зянятй</option>
+                            <option  value="HHH">HHH</option>
+                            <option value="PPP">PPP</option>
+                            <option value="SSS">SSS</option>
+                        </select>
+                    </p>
+                    <p>Выберите день из расписания:</p>
+                    <div class="obb">
+                        <p class="stinput klas"><input class="calendar" type="text" id="datepicker" placeholder="Понедельник 30 Марта 2012г."></p>
+                    </div>
+                    <p><input class="stymit" type="submit" value="Записаться"></p>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!--<p>Date: <input type="text" id="datepicker"></p>-->
+</section>
+</body>
