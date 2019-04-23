@@ -175,3 +175,33 @@
 .footer .block3 .pic2 .images img {
     margin: 0 6px;
 }
+
+.regular-service-title {
+    text-align: center;
+}
+.regular-service-title h3 {
+
+    color: #7691b9;
+    font-family: PT Mono, monospace;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 2.4px;
+    line-height: 25px;
+}
+.regular-service .content {
+    display: flex;
+}
+.regular-picture {
+    margin-right: 30px;
+}
+.regular-service h2 {
+    color: #7691b9;
+    font-family: PT Mono, monospace;
+    font-size: 36px;
+    font-weight: 400;
+    letter-spacing: 3.6px;
+    line-height: 55px;
+}
+.regular-block {
+    display: flex;
+}
